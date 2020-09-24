@@ -4,8 +4,8 @@ project(kr1)
 
 #aux_source_directory(. SRC_LIST)
 
-set(VECTOR_SRC kr1.cpp class.cpp AutoTest.cpp data.txt)
-set(VECTOR_HDR Header.h)
+set(VECTOR_SRC kr1.cpp CPoint.cpp CDist.cpp AutoTest.cpp data.txt)
+set(VECTOR_HDR CPoint.h CDist.h)
 
 #add_executable(${PROJECT_NAME} ${SRC_LIST})
 #add_library(vector STATIC ${VECTOR_SRC} ${VECTOR_HDR})

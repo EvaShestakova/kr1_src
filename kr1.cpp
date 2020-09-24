@@ -1,4 +1,5 @@
-﻿#include "Header.h"
+﻿#include "CPoint.h"
+#include "CDist.h"
 
 
 int main() {
